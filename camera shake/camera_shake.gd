@@ -14,5 +14,5 @@ func _process(delta: float) -> void:
 		offset = Vector2(randf_range(-curr_shake_strength,curr_shake_strength),randf_range(-curr_shake_strength,curr_shake_strength))
 
 
-func start_shake() -> void:
+func shake() -> void:
 	curr_shake_strength = shake_strength
