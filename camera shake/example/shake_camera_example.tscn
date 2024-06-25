@@ -10,7 +10,7 @@ script = ExtResource("1_3hc7s")
 [node name="ShakeCamera" type="Camera2D" parent="."]
 script = ExtResource("1_q5l1w")
 shake_strength = 50.0
-shake_weigth = 10.0
+shake_fade = 5.0
 
 [node name="Icon" type="Sprite2D" parent="."]
 texture = ExtResource("2_56im4")
